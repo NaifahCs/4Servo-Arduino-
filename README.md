@@ -20,8 +20,8 @@ A walking motion algorithm for a humanoid robot is also proposed
     All GND to GND
 
 # Code Behavior
-    1. All servos sweep back and forth for 2 seconds.
-    2. All servos are set to hold at 90 degrees permanently.
+    1. All servos sweep back and forth for 2 seconds
+    2. All servos are set to hold at 90 degrees permanently
 
 # Walking Motion Algorithm
     1. Start by setting all servos to a neutral position at 90 degrees
@@ -31,7 +31,7 @@ A walking motion algorithm for a humanoid robot is also proposed
     5. Return the torso to the center position
     6. Move the left leg backward to the original position
     7. Shift weight to the left leg
-    8. Move the right leg forward.
+    8. Move the right leg forward
     9. Repeat steps 3 to 8 in a loop for continuous walking
 
 # Simulation
